@@ -9,8 +9,7 @@ Additionally, the hex files are required to get the output. If they are saved in
 
 state_machine_controller
 	The design was based off of a Moore machine design, combining both parts in figure (a) and (b). In figure (a) below, contains the more simple linear logic. Figure (b) was more complicated since I wanted to make an immersive walking simulator. The labyrinth logic . We have input buttons a and b to progress through each state. The entire state machine is controlled by the two button inputs. 
-The state changes from either button_a or button_b depending on my state diagram
-
+The state changes from either button_a or button_b depending on my state diagram.
 
 	The game has two endings, each of the endings loop back to the title page.The state machine works on a much slower clock than the vga_controller. This is because the buttons pressed changes between the states if held for a little bit. Therefore, I found a speed that is enough to be responsive for when we just press the button. This is shown in the video.
 The output for each state is different for the story parts. However in the labyrinth part, I have some states that reuse images, this makes it seem like we are actually walking around the space adding some immersion.
