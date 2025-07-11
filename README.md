@@ -10,7 +10,7 @@ deeper understanding of this project.
 **For the DE10-Lite**
 
 Utilizing Quartus Prime 
-Open a new project with Verilog settings
+Open a new project with Verilog settings.
 Make sure that under files Proj.sv and aes_128.sv are included in the Project.
 vga_controller  needs to be set to Top-level entity.
 If you want to use the hex files provided in the PixelArtHexFileCode folder, make sure to change the code in vga_controller.v 
