@@ -8,7 +8,7 @@ Consider the attatched [report](https://github.com/aliriz71/FPGA-Knight-sResolve
 deeper understanding of this project.
 # To run this project
 **For the DE10-Lite**
-<pre>
+
 Utilizing Quartus Prime 
 Open a new project with Verilog settings
 Make sure that under files Proj.sv and aes_128.sv are included in the Project.
@@ -21,14 +21,11 @@ next steps of assiging the VGA pins.
 After having compiled the design go through the following steps:
 Menu -> Assignments, and then -> Pin Planner and ensure the assignments match up to the code.
 Then click Program Device under task, and make sure you have selected USB-blaster before you click start.
-</pre>
 
 # To use the Python Script for your own images
-<pre>
+
 Ensure that the PNG is sized to the dimensions of 64x48 pixels.
 I used pixelart.com to make the images and utilized the 4-bit VGA colour depth pallete to ensure a swift colour mapping process with the script.
-</pre>
-Find the SSID Pico2W and enter the password "password". 
-Once connected, go into any browser and enter the IP in the URL, this will take you to the HTTP server hosted on the Pico.
- Enjoy! 
+
+Enjoy! 
 
