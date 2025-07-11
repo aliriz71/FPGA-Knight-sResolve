@@ -1,5 +1,9 @@
 # FPGA Game - Knight's Resolve
-Wifi Access Point on Raspberry Pi Pico 2W to encrypt a 10 digit phone number with AES-128 on the DE10-lite board via SPI connection. 
+This is a Moore finite-state machine game made in Verilog on the DE10-Lite FPGA, using two debounced pushbuttons 
+to drive branching puzzle and maze navigation. 
+
+This game offers two endings.
+
 Consider the attatched [report](https://github.com/aliriz71/FPGA-Knight-sResolve/blob/main/Knights-Resolve-Project-Description.pdf) for a 
 deeper understanding of this project.
 # To run this project
@@ -9,8 +13,8 @@ Utilizing Quartus Prime
 Open a new project with Verilog settings
 Make sure that under files Proj.sv and aes_128.sv are included in the Project.
 vga_controller  needs to be set to Top-level entity.
-If you want to use the hex files provided in the PixelArtHexFileCode folder, make sure to change the code in vga_controller.v at lines 388-415 to 
-determine which directory you are using the load the hex files.
+If you want to use the hex files provided in the PixelArtHexFileCode folder, make sure to change the code in vga_controller.v 
+**at lines 388-415** to determine which directory you are using the load the hex files.
 
 Consider the [DE10-lite manual](https://ftp.intel.com/Public/Pub/fpgaup/pub/Intel_Material/Boards/DE10-Lite/DE10_Lite_User_Manual.pdf) for the 
 next steps of assiging the VGA pins.
